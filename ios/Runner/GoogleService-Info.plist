@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>288279982853-qqf4g303o652hjrh2826uap7di9tmvvg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.288279982853-qqf4g303o652hjrh2826uap7di9tmvvg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDMBjMd6-b_U1o16kuZaF67MNSl4SY3mvA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>288279982853</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.careBridgeUi</string>
+	<key>PROJECT_ID</key>
+	<string>carebridge-860a9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>carebridge-860a9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:288279982853:ios:140d3384dd14f75d44bd6c</string>
+	<key>DATABASE_URL</key>
+	<string>https://carebridge-860a9-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

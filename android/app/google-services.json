@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "288279982853",
+    "firebase_url": "https://carebridge-860a9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "carebridge-860a9",
+    "storage_bucket": "carebridge-860a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288279982853:android:b36ee260aaad08b944bd6c",
+        "android_client_info": {
+          "package_name": "com.example.care_bridge_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288279982853-d9h2nq0vli3riiib4emmeu32a8rhmksd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIZNnSiOlL6At9A9T7vtI31UO2PkS-WbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288279982853-d9h2nq0vli3riiib4emmeu32a8rhmksd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
