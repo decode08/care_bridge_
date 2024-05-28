@@ -10,6 +10,11 @@ class Councelling extends StatefulWidget {
 class _CouncellingState extends State<Councelling> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Get yourself a counsel"),
+      ),
+      body: Center(child: Container()),
+    );
   }
 }

@@ -1,4 +1,5 @@
-import'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+
 class Mood extends StatefulWidget {
   const Mood({Key? key}) : super(key: key);
 
@@ -9,6 +10,14 @@ class Mood extends StatefulWidget {
 class _MoodState extends State<Mood> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(
+        child: Icon(
+          Icons.music_note,
+          color: Colors.purple,
+          size: 120,
+        ),
+      ),
+    );
   }
 }

@@ -3,7 +3,6 @@
 import 'package:care_bridge_ui/screens/profile.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
 import 'CommunityFeed.dart';
 import 'councelling.dart';
 import 'home.dart';
@@ -31,7 +30,7 @@ class _HomePageState extends State<HomePage> {
   final currentUser =FirebaseAuth.instance.currentUser!;
 
   void signUserOut(){
-  FirebaseAuth.instance.signOut();
+  //FirebaseAuth.instance.signOut();
   // Navigator.push(context,
   // MaterialPageRoute(builder: ((context) =>LoginPage())));
   }
@@ -40,8 +39,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      // appBar: AppBar(actions: [IconButton(onPressed:
-      // signUserOut, icon: Icon(Icons.logout),)],),
+      appBar: AppBar(actions: [IconButton(onPressed:
+      signUserOut, icon: Icon(Icons.logout),)],),
       body: PageStorage(
         child: currentScreen,
         bucket: bucket,
